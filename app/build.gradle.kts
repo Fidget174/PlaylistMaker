@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+
     namespace = "com.practicum.playlistmaker"
     compileSdk = 33
 
@@ -32,6 +33,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 

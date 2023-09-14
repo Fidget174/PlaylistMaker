@@ -19,10 +19,10 @@
         android:textSize="@dimen/title"
         android:textStyle="bold"
         android:gravity="start"
-        android:textColor="@color/white"  />
+        android:textColor="@color/white" />
 
     <Button
-        android:id="@+id/search"
+        android:id="@+id/b_search"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -36,9 +36,10 @@
         app:iconTint = "@color/black"
         app:iconPadding = "@dimen/padding8"
         app:cornerRadius = "@dimen/corner_radius"
+        android:textAllCaps="false"
         android:foreground="?attr/selectableItemBackground"/>
     <Button
-        android:id="@+id/mediaData"
+        android:id="@+id/b_mediaData"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -52,9 +53,10 @@
         app:iconTint = "@color/black"
         app:iconPadding = "@dimen/padding8"
         app:cornerRadius = "@dimen/corner_radius"
+        android:textAllCaps="false"
         android:foreground="?attr/selectableItemBackground"/>
     <Button
-        android:id="@+id/settings"
+        android:id="@+id/b_settings"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -69,5 +71,6 @@
         app:iconTint = "@color/black"
         app:iconPadding = "@dimen/padding8"
         app:cornerRadius = "@dimen/corner_radius"
+        android:textAllCaps="false"
         android:foreground="?attr/selectableItemBackground"/>
 </LinearLayout>

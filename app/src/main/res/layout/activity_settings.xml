@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/padding4" >
         <ImageButton
-            android:id="@+id/button_back"
+            android:id="@+id/b_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src= "@drawable/ic_arrow_left"
@@ -25,8 +25,7 @@
             android:textSize="@dimen/text22"
             android:textStyle="bold"
             android:layout_gravity="start"
-            android:padding="@dimen/padding10"
-            />
+            android:padding="@dimen/padding10"            />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -44,22 +43,16 @@
                 android:text="@string/darkTheme"
                 android:textColor="@color/YP_black"
                 android:textSize="@dimen/text16"
-                android:paddingStart="@dimen/padding6"
-                android:paddingEnd="@dimen/padding6"
-                android:paddingTop="@dimen/padding10"
-                android:paddingBottom="@dimen/padding10"
-
-                />
+                android:layout_gravity="center_vertical"
+                android:paddingHorizontal="@dimen/padding6"
+                android:paddingVertical="@dimen/padding10" />
             <Switch
-                android:id="@+id/switch_dark_theme"
+                android:id="@+id/s_dark_theme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="@dimen/padding6"
+                android:paddingStart="@dimen/padding4"
                 android:paddingEnd="@dimen/padding6"
-                android:paddingTop="@dimen/padding10"
-                android:paddingBottom="@dimen/padding10"
-
-                />
+                android:paddingVertical="@dimen/padding18" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,14 +65,11 @@
                 android:text="@string/share"
                 android:textColor="@color/YP_black"
                 android:textSize="@dimen/text16"
-                android:paddingStart="@dimen/padding6"
-                android:paddingEnd="@dimen/padding6"
-                android:paddingTop="@dimen/padding10"
-                android:paddingBottom="@dimen/padding10"
-
-                />
+                android:paddingHorizontal="@dimen/padding6"
+                android:paddingVertical="@dimen/padding10"
+                android:layout_gravity="center_vertical"/>
             <ImageButton
-                android:id="@+id/share_app"
+                android:id="@+id/ib_share_app"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_share_light"
@@ -97,14 +87,13 @@
                 android:text="@string/support"
                 android:textColor="@color/YP_black"
                 android:textSize="@dimen/text16"
-                android:paddingStart="@dimen/padding6"
-                android:paddingEnd="@dimen/padding6"
-                android:paddingTop="@dimen/padding10"
-                android:paddingBottom="@dimen/padding10"
+                android:layout_gravity="center_vertical"
+                android:paddingHorizontal="@dimen/padding6"
+                android:paddingVertical="@dimen/padding10"
 
                 />
             <ImageButton
-                android:id="@+id/support"
+                android:id="@+id/ib_support"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_support_light"
@@ -122,14 +111,13 @@
                 android:text="@string/termsOfUse"
                 android:textColor="@color/YP_black"
                 android:textSize="@dimen/text16"
-                android:paddingStart="@dimen/padding6"
-                android:paddingEnd="@dimen/padding6"
-                android:paddingTop="@dimen/padding10"
-                android:paddingBottom="@dimen/padding10"
+                android:layout_gravity="center_vertical"
+                android:paddingHorizontal="@dimen/padding6"
+                android:paddingVertical="@dimen/padding10"
 
                 />
             <ImageButton
-                android:id="@+id/terms_of_use"
+                android:id="@+id/ib_terms_of_use"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_arrow_light"

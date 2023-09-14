@@ -4,7 +4,7 @@
     <dimen name="title">20dp</dimen>
     <dimen name="button">22dp</dimen>
     <dimen name="text22">22sp</dimen>
-    <dimen name="text16">22sp</dimen>
+    <dimen name="text16">16sp</dimen>
     <dimen name="padding4">4dp</dimen>
     <dimen name="padding6">6dp</dimen>
     <dimen name="padding8">8dp</dimen>
